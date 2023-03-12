@@ -4,7 +4,7 @@ Below you can find a outline of how to reproduce my solution for the WiDs Datath
 If you run into any trouble with the setup/code or have any questions feel free to contact me.
 
 # CONTENTS
-prepare_data.py     :  This code run does preprocessing methods applied to the data__
+prepare_data.py     :  This code run does preprocessing methods applied to the data\
 train.py            :  This code trains the data on 4 models__
 predict.py          :  This code predicts the test data__
 
