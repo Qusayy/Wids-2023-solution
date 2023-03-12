@@ -17,7 +17,11 @@ GPU        : NVIDIA GeForce GTX 1650
 Python 3.10.10
 
 ## DATA SETUP (assumes the [Kaggle API](https://github.com/Kaggle/kaggle-api) is installed)
+mkdir -p data/\
 mkdir -p data/raw/\
+mkdir -p data/clean/\
+mkdir -p submission/\
+mkdir -p models/\
 cd data/raw/\
 kaggle competitions download -c widsdatathon2023 -f train_data.csv\
 kaggle competitions download -c widsdatathon2023 -f test_data.csv
